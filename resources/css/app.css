@@ -1,0 +1,98 @@
+Styles généraux
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #054789;
+    color: floralwhite;
+}
+
+.container {
+    max-width: 900px;
+}
+
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #ffd700;
+}
+
+/* Liste des tâches */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.list-group-item a:hover {
+    color: #0056b3;
+}
+
+.badge {
+    font-size: 0.9rem;
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Messages de succès */
+.alert {
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Formulaire de modification */
+.form-check-input {
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="checkbox"], textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+}
